@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 
 const TeckStack = ({icon, text, color}) => {
-    const [isHover, setIsHover] = useState(false);
-
+  const [isHover, setIsHover] = useState(false);
   const mouseEnter = () => {
     setIsHover(true);
-    console.log('mouse enter');
-
   }
   const mouseLeave = () => {
     setIsHover(false);
