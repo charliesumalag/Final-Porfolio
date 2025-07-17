@@ -3,6 +3,7 @@ import WorkExpSec from './components/WorkExpSec'
 import HeroSec from './components/HeroSec'
 import ContactSec from './components/ContactSec'
 import ProjectSec from "./components/ProjectSec";
+import CertificateSec from "./components/CertificateSec";
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
         <HeroSec />
         <WorkExpSec />
         <ProjectSec />
+        <CertificateSec />
+        <hr className="mt-12 border-gray-300" />
         <ContactSec />
       </div>
     </div>

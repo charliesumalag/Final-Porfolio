@@ -8,8 +8,11 @@ const Nav = () => {
             <Link to='work-experience' smooth={true} duration={500}>
                 <li className='cursor-pointer tracking-[0.6px] uppercase font-roboto text-[#323232] text-[12px]'>Work Experience</li>
             </Link>
-             <Link to='projects' smooth={true} duration={500}>
+            <Link to='projects' smooth={true} duration={500}>
                 <li className='cursor-pointer tracking-[0.6px] uppercase font-roboto text-[#323232] text-[12px]'>Projects</li>
+            </Link>
+            <Link to='certificates' smooth={true} duration={500}>
+                <li className='cursor-pointer tracking-[0.6px] uppercase font-roboto text-[#323232] text-[12px]'>Certificates</li>
             </Link>
             <Link to='contact' smooth={true} duration={500}>
                 <li className='cursor-pointer tracking-[0.6px] uppercase font-roboto text-[#323232] text-[12px]'>Contact</li>

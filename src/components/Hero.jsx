@@ -22,7 +22,7 @@ const Hero = () => {
           <p className='leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] text-[#737373] pr-14 mt-4'>Im a BSIT graduate passionate about web development and writing clean, efficient code to build intuitive digital experiences.</p>
         </div>
         <div>
-          <span className='leading-[1.65em] rounded-sm tracking-[0.1px] py-[5px] px-3 bg-[#ff374a] text-white font-roboto text-[13px] cursor-pointer font-bold'>Resume <i className="fa-solid fa-chevron-right text-[8px]"></i></span>
+          <span className='leading-[1.65em] rounded-sm tracking-[0.1px] py-[7px] px-3 bg-[#ff374a] text-white font-roboto text-[13px] cursor-pointer font-bold'>Resume <i className="fa-solid fa-chevron-right text-[8px]"></i></span>
         </div>
       </div>
     </div>
