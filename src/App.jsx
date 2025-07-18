@@ -11,8 +11,8 @@ const App = () => {
       <div className='max-w-[800px] mx-auto'>
         <Nav />
         <HeroSec />
-        <WorkExpSec />
         <ProjectSec />
+        <WorkExpSec />
         <CertificateSec />
         <hr className="mt-12 border-gray-300" />
         <ContactSec />
