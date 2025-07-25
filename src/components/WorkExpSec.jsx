@@ -18,7 +18,7 @@ const WorkExpSec = () => {
                 </div>
             </div>
             <div>
-                <p className='text-gray-500 leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] mt-4'>For the past two years, I have primarily worked with startups, developing products from the ground up. I have led the frontend development of an AI-powered Interview Platform, building a job marketplace for dentists, and creating a system for managing promotional prize games.</p>
+                <p className='text-gray-500 leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, provident? Nostrum, ducimus molestiae eos reprehenderit culpa quod dolore pariatur possimus odio exercitationem? Non illum quo voluptate perferendis id unde rerum.</p>
             </div>
         </div>
     </section>
