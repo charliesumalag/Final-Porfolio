@@ -8,8 +8,8 @@ import CertificateSec from "./components/CertificateSec";
 const App = () => {
   return (
     <div className='bg-[#FFFFFF] leading-[1.7em] text-black font-openSans'>
-      <div className='max-w-[800px] mx-auto'>
-        <Nav />
+      <div className='max-w-[800px] mx-auto px-6 md:px-10'>
+        {/* <Nav /> */}
         <HeroSec />
         <ProjectSec />
         <WorkExpSec />

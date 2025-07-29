@@ -1,10 +1,11 @@
 import React from 'react'
 import TeackStack from "../components/TeckStack";
+import clsx from 'clsx';
 
 
 const Stack = () => {
   return (
-    <div className='flex gap-4  flex-wrap mt-6'>
+    <div className={clsx('flex gap-4  flex-wrap mt-6', 'max-md:justify-center')}>
       <TeackStack icon='fa-brands fa-react' text='React' color='#61DAFB' />
       <TeackStack icon='fa-brands fa-js' text='JavaScript' color='#F7DF1E'  />
       <TeackStack icon='fa-brands fa-html5' text='HTML' color='#E44D26'  />

@@ -1,13 +1,14 @@
 import React from 'react'
 import google from "../assets/img/googlelogo.jpg";
 import Title from "../components/Title";
+import clsx from 'clsx';
 
 const WorkExpSec = () => {
   return (
-    <section id='work-experience' className='pt-22'>
+    <section id='work-experience' className={clsx('pt-22','max-md:text-center')}>
         <Title text='Work Experience' />
         <div className=' mt-8 flex flex-col gap-1'>
-            <div className='flex gap-2'>
+            <div className={clsx('flex gap-2','max-md:items-center max-md:flex-col')}>
                 <img src={google} alt="" className='w-[50px] rounded-full' />
                 <div className='flex flex-col gap-1'>
                     <p className='text-[15px] leading-[25px] font-poppins font-bold text-black'>Web Developer</p>
@@ -18,7 +19,7 @@ const WorkExpSec = () => {
                 </div>
             </div>
             <div>
-                <p className='text-gray-500 leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, provident? Nostrum, ducimus molestiae eos reprehenderit culpa quod dolore pariatur possimus odio exercitationem? Non illum quo voluptate perferendis id unde rerum.</p>
+                <p className={clsx('text-gray-500 leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] mt-4','max-md:text-center')}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, provident? Nostrum, ducimus molestiae eos reprehenderit culpa quod dolore pariatur possimus odio exercitationem? Non illum quo voluptate perferendis id unde rerum.</p>
             </div>
         </div>
     </section>

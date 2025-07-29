@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 
 const Nav = () => {
   return (
-    <nav className='flex w-full mx-auto justify-between py-12'>
+    <nav className='flex w-full mx-auto items-center justify-between py-12'>
         <h1 className='font-bold font-poppins text-[18px] leading-[1.7em] cursor-pointer text-black'>Charlie Sumalag <span className='w-1.5 h-1.5 bg-[#ff374a] inline-block rounded-full'></span></h1>
         <ul className='flex gap-4 text-lg'>
             <Link to='projects' smooth={true} duration={500}>
