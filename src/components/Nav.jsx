@@ -2,7 +2,9 @@ import clsx from 'clsx';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 
-const Nav = ({isMobile, setIsMobile, menuOpen, setMenuOpen}) => {
+const Nav = () => {
+    const [isMobile, setIsMobile] = useState(true);
+    const [menuOpen, setMenuOpen] = useState(false);
     useEffect(() => {
         if (menuOpen) {
             document.body.style.overflow = 'hidden';
