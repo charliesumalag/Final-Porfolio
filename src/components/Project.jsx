@@ -10,7 +10,7 @@ const Project = ({title, text}) => {
         <img src={Project1} alt=""  className={clsx('w-[500px]','max-md:h-[200px] max-md:w-[300px]')}/>
       </div>
       <div className={clsx('max-md:text-center')} >
-        <p className={isHover ? "text-[15px] leading-[25px] font-poppins font-bold text-[#ff374a]" : "text-[15px] leading-[25px] font-poppins font-bold text-black max-md:font-medium"}>{title} <span><i className={isHover ? "fa-solid fa-arrow-right rotate-[320deg] transition-transform duration-300 translate-x-0.5 -translate-y-0.5 font-extralight text-[12px] pt-4 " : "fa-solid fa-arrow-right rotate-[320deg] font-extralight text-[12px] pt-4"}></i></span></p>
+        <p className={isHover ? "text-[14px] leading-[25px] font-poppins font-medium text-[#ff374a]" : "text-[14px] leading-[25px] font-poppins font-medium text-gray-900 max-md:font-medium"}>{title} <span><i className={isHover ? "fa-solid fa-arrow-right rotate-[320deg] transition-transform duration-300 translate-x-0.5 -translate-y-0.5 font-extralight text-[12px] pt-4 " : "fa-solid fa-arrow-right rotate-[320deg] font-extralight text-[12px] pt-4"}></i></span></p>
         <p className='text-gray-500 leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] mt-1'>{text}</p>
         <div className={clsx('flex flex-wrap gap-3 my-4', 'max-md:justify-center')}>
           <span className='leading-[1.65em] rounded-sm tracking-[0.1px] py-1 px-2 bg-[#DC4214] text-white font-roboto text-[11px] '>HTML</span>

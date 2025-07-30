@@ -10,7 +10,7 @@ const Certificate = ({text, title, image, link}) => {
           <img src={image} alt=""  className={clsx('w-[650px]','max-md:h-[230px] max-md:w-[300px]')}/>
         </div>
         <div className='' >
-          <p className={isHover ? "text-[15px] leading-[25px] font-poppins font-bold text-[#ff374a]" : "text-[15px] leading-[25px] font-poppins font-bold text-black"}>{title} <span><i className={isHover ? "fa-solid fa-arrow-right rotate-[320deg] transition-transform duration-300 translate-x-0.5 -translate-y-0.5 font-extralight text-[12px] pt-4 " : "fa-solid fa-arrow-right rotate-[320deg] font-extralight text-[12px] pt-4"}></i></span></p>
+          <p className={isHover ? "text-[14px] leading-[25px] font-poppins font-medium text-[#ff374a]" : "text-[14px] leading-[25px] font-poppins font-medium text-gray-900"}>{title} <span><i className={isHover ? "fa-solid fa-arrow-right rotate-[320deg] transition-transform duration-300 translate-x-0.5 -translate-y-0.5 font-extralight text-[12px] pt-4 " : "fa-solid fa-arrow-right rotate-[320deg] font-extralight text-[12px] pt-4"}></i></span></p>
           <p className='text-gray-500 leading-[1.65em] tracking-[0.1px] font-roboto text-[15px] mt-1'>{text}</p>
         </div>
       </div>
